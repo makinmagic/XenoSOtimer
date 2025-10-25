@@ -1,8 +1,8 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.3",
   "downloads": {
-    "windows": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.4/XenoSOTimer_v1.0.4.zip",
-    "macos": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.4/XenoSOTimer_Mac_v1.0.4.zip"
+    "windows": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.3/XenoSOTimer_v1.0.3.zip",
+    "macos": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.3/XenoSOTimer_Mac_v1.0.3.zip"
   },
-  "download_url": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.4/XenoSOTimer_v1.0.4.zip"
+  "download_url": "https://github.com/makinmagic/XenoSOtimer/releases/download/v1.0.3/XenoSOTimer_v1.0.3.zip"
 }
