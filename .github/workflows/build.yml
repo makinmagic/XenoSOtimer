@@ -3,7 +3,8 @@ name: Build XenoSOTimer
 on:
   push:
     tags:
-      - 'v1.1.0'
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
