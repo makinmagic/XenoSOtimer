@@ -8,88 +8,112 @@
   <link rel="icon" href="XenoSOtimer.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="stars"></div>
 
   <header class="hero">
-    <h1 class="glow">XenoSO Timer</h1>
+    <h1 class="glow" style="margin-bottom: 10px">XenoSO Timer v2.0</h1>
     <p class="subtitle">Your ultimate timekeeper for Xenovia!</p>
-    <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v1.3.0/XenoSOtimer_v1.3.0.zip" class="button-primary">⬇️ Download Now!</a>
+    <div class="download-buttons">
+      <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v2.0.0/XenoSO.Timer_2.0.0_x64-setup.exe" class="button-primary">⬇️ Download for Windows</a>
+      <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v2.0.0/xenosotimer-mac-build.zip" class="button-primary">🍎 Download for Mac</a>
+    </div>
   </header>
 
   <main>
+
+    <!-- WHAT IS IT -->
     <section class="panel">
       <h2>🕓 What is XenoSO Timer?</h2>
       <p>
-        The <strong>XenoSO Timer</strong> is a lightweight desktop companion for <strong>XenoSO</strong> players who want precise tracking and alerts for
-        SMOs, job shifts, egg hour, AFK timeouts, and in-game events - all in one small app!
+        <strong>XenoSO Timer</strong> is a lightweight desktop companion for <strong>XenoSO</strong> players, offering precise tracking for
+        SMOs, job shifts, Egg Hour, AFK timeouts, custom timers, and events — all in one small, beautiful app.
       </p>
       <p>
-        Whether you’re working on <strong>jaaaaaaams</strong>, managing your <strong>Diner shifts</strong>, or waiting for <strong>Egg Hour</strong>,
-        this timer helps you stay perfectly synced with in-game time while looking like part of the game itself.
+        Whether you’re making <strong>jaaaaaaaaaams</strong>, timing your <strong>Diner</strong> shift, or waiting for <strong>Egg Hour</strong>,
+        this timer keeps you synced to the game like never before.
       </p>
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhKraCfldI2mQEzAomU54-7i53156aIv0rzDnCZAhdEitztJ-T8j0S3JH_ajX_fYzz-Q_oh5MyiG4N7r2n3FOJ5eKnKJ8_nh8cgvIxRizbfOvgg62_d3lystvTJRzy7OSS-EUg61qk2-M-YqqoCn9cdiHEFsmbEXZf-1jbmmdJkf0aJAB-4xGP-Y-48Qrc=s16000" alt="XenoSO Timer Screenshot">
+      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgYGgPcTlOSOWEGp6fjK_-vCoQyrncgT5XJQSjvi5-CLKQLZiBErwy7IIeI3TW7f30TIxHRk7sUwhPXlqecRTZy7NABAHMnKvvWzCGhCun5VlPImMIedEMSnKa1Auie2C6Z3VCIzz6KXL5YjrHy_MTP19U7zeZQ5u5c-mUOsRerox_8VoFvjjFZWk8ENP8=s16000" alt="XenoSO Timer Screenshot">
     </section>
 
+    <!-- FEATURES -->
     <section class="panel">
       <h2>⚙️ Key Features</h2>
       <ul class="features">
-        <li>🏭 <strong>Multi-Timer Interface</strong> – Manage multiple activities (SMOs, jobs, and more) from one window.</li>
-        <li>🕕 <strong>Egg Hour, Jobs, and Events Countdowns</strong> – Never miss an egg, shift, or bingo again!</li>
-        <li>💤 <strong>AFK Timer Interruptor™</strong> – Warns you before you’re logged out for inactivity.</li>
-        <li>🔝 <strong>Always on Top</strong> – Keep your timer visible during gameplay.</li>
-        <li>🚀 <strong>Lightweight & Easy to Use</strong> – Runs standalone, no installation required.</li>
+        <li>🏭 <strong>Multi-Timer Interface</strong> – Manage SMOs, job shifts, Egg Hour, and more from one window.</li>
+        <li>🕕 <strong>Egg Hour / Jobs / Events Countdowns</strong> – Perfectly aligned with in-game time.</li>
+        <li>💤 <strong>AFK Timer Interrupter™</strong> – Warns you before you’re logged out for inactivity.</li>
+        <li>⏲️ <strong>Custom Timer (NEW)</strong> – Set your own timer for any in-game hour you want!</li>
+        <li>🔝 <strong>Always on Top</strong> – Keep your timers visible during gameplay.</li>
+        <li>💾 <strong>“Remember My Selections” (NEW)</strong> – The app will now remember your checkboxes and settings after closing.</li>
+        <li>🚀 <strong>Ultra Lightweight</strong> – Now installed using NSIS (Windows) or DMG (Mac). Only ~10MB!</li>
       </ul>
     </section>
 
-    <section class="panel">
-      <h2>💡 How It Works</h2>
-      <p>
-        XenoSO Timer synchronizes with the in-game clock and runs locally. Each timer is independent - start one for your SMO, Egg Hour, or an event, and it will alert you when it’s time.
-      </p>
-      <ul>
-        <li><strong>Factory / Diner / Club:</strong> Track shift start times automatically. No job abandonment! 💼</li>
-        <li><strong>Egg Hour:</strong> Don't miss a single minute of chicken productivity! 🥚</li>
-        <li><strong>Events:</strong> Countdown to events straight from the XenoSO dashboard! 🎉</li>
-        <li><strong>AFK Timer Interruptor™:</strong> Avoid the AFK monster with multiple sound alerts! ⚡</li>
-      </ul>
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjWwK-Fsws7Pjdsm_ECD9IrmYHEyLjSfmfNLBP5PPX2nOox7XzLKKVF30dsg-CvDhgsa2dJqZUBwHWz6Ka5W-nNIl923vkXzvXvgufs8wXjUmQUNCP0QlPQZpiMXoLCerGN3U8nHl9LmVDuyreurG97Q-j4-GijLCF81XJ6UxUGeiF_AksPFA5nf2ZFiuE=s16000" alt="XenoSO Timer Features Screenshot">
-    </section>
-
+    <!-- INSTALLATION -->
     <section class="panel">
       <h2>💾 Download & Installation</h2>
+
+      <h3>🟦 Windows Installation</h3>
       <ol>
-        <li>Click on the <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v1.3.0/XenoSOtimer_v1.3.0.zip" target="_blank">Download link</a>.</li>
-        <li>Extract the files and run <code>XenoSOtimer.exe</code>. I recommend adding a Desktop shortcut.</li>
-        <li>That's it! No installation needed - just launch and play.</li>
+        <li>Download the <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v2.0.0/XenoSO.Timer_2.0.0_x64-setup.exe">XenoSO Timer installer</a><strong></strong>.</li>
+        <li>Run the installer and follow the prompts.</li>
+        <li>If Windows Smartscreen appears, click:<br>
+            <strong>More Info → Run Anyway</strong>.</li>
+        <li>(Recommended) Have the installer add Start Menu and Desktop shortcuts for easy access.</li>
       </ol>
-      <p class="warning">
-        ⚠️ Windows may warn you about "unverified software." Click “More Info → Run Anyway” to proceed safely.
+
+      <h3>🍎 Mac Installation</h3>
+      <ol>
+        <li>Download <a href="https://github.com/makinmagic/XenoSOtimer/releases/download/v2.0.0/xenosotimer-mac-build.zip">the installation ZIP.</a></li>
+        <li>Open the <strong>XenoSO Timer Install</strong> folder and double-click the <strong>XenoSO Timer.dmg</strong> file.</li>
+        <li>When the DMG opens, drag <strong>XenoSO Timer.app</strong> into your <strong>Applications</strong> folder.</li>
+        <li>To open the app for the first time:
+          <ul>
+            <li><strong>Recommended:</strong> Right-click the app → <strong>Open</strong> → <strong>Open</strong></li>
+            <li><strong>If macOS still blocks it:</strong><br>
+                Go to <strong>System Settings → Privacy & Security</strong> and click <strong>Allow Anyway</strong>, then open the app again.</li>
+          </ul>
+        </li>
+      
+        <li>After the first launch approval, the app will open normally every time.</li>
+      </ol>
+
+      <h3>⬆️ Updating the App</h3>
+      <p>
+        Simply download the newest installer (Windows or Mac) - it will automatically replace your existing installation!
       </p>
     </section>
 
+    <!-- FAQ -->
     <section class="panel">
       <h2>❓ FAQ</h2>
+
       <details>
-        <summary>Is it safe to use?</summary>
-        <p>Yes. XenoSO Timer is open-source and hosted on GitHub. You can inspect the code before downloading or using it.</p>
+        <summary>How do updates work now?</summary>
+        <p>Simply download the new installer when prompted by the app. It will automatically update your installation - no more manual file deletion!</p>
       </details>
+
       <details>
-        <summary>How do I install updates?</summary>
-        <p>Simply delete the old files, unzip the new ones, and use the new XenoSOtimer.exe! Simple as that 🙌</p>
+        <summary>What does “Remember my selections” do?</summary>
+        <p>The app now saves your settings (checkboxes, toggles, volume, etc.) so they're restored when you reopen it.</p>
       </details>
+
       <details>
-        <summary>What do I need to run it?</summary>
-        <p>XenoSO Timer requires .NET 8.0, but since this is included with your XenoSO install, if you can play XenoSO, you can run the timer.</p>
+        <summary>How do I get help with the app?</summary>
+        <p>Just reach out to Mr Teddy on Discord. Always happy to help!</p>
       </details>
+
     </section>
   </main>
 
   <footer>
     <p>
-      Made with ❤ for XenoSO by Mr Teddy<br />
-      The AFK Timer Interruptor™ trademark was used with permission from Jen Sunset!
+      Made with 💜 for XenoSO by Mr Teddy<br /><br>
+      <em>The AFK Timer Interrupter™ trademark was used with permission from Jen Sunset!</em>
     </p>
   </footer>
+
 </body>
 </html>
