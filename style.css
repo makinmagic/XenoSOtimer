@@ -49,6 +49,7 @@ a:hover {
 .button-primary:hover {
   background: #a168ff;
   box-shadow: 0 0 15px #a168ff;
+  text-decoration: none;
 }
 
 .download-buttons {
