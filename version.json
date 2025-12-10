@@ -6,6 +6,6 @@
   },
   "download_url": "https://github.com/makinmagic/XenoSOtimer/releases/download/v2.0.0/XenoSO.Timer_2.0.0_x64-setup.exe",
   "seasonal_active": true,
-  "santa_active": true,
+  "santa_active": false,
   "seasonal_label": "Christmas 🎄"
 }
