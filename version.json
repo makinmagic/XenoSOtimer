@@ -5,7 +5,7 @@
     "macos": "https://github.com/makinmagic/XenoSOtimer/releases/download/v2.1.0/xenosotimer-mac-build.zip"
   },
   "download_url": "https://github.com/makinmagic/XenoSOtimer/releases/download/v2.1.0/XenoSO.Timer_2.1.0_x64-setup.exe",
-  "seasonal_active": true,
+  "seasonal_active": false,
   "santa_active": false,
   "seasonal_label": "Christmas 🎄"
 }
